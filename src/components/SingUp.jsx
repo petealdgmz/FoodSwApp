@@ -8,15 +8,13 @@ import '../styles/SingUp.css'
 
 
 
-
-
-
-
-
-
-
-
 const SingUp = () => {
+    //Manejo de modal [Registro exitoso]
+    const [showSuccessModal, setShowSuccessModal] = useState(false);
+    //Manejo del modal [Registro fallido]
+    const [showErrorModal, setShowErrorModal] = useState(false);
+
+
     //Estado local para almacenar los valores del formulario
     const [formData, setFormData] = useState({
         nombre: '',
@@ -57,6 +55,7 @@ const SingUp = () => {
             // Verificar si la solicitud fue exitosa
             if (response.status === 200) {
                 console.log('Usuario registrado correctamente');
+                setShowSuccessModal(true);
                 setFormData({
                     nombre: '',
                     correo: '',
@@ -67,13 +66,13 @@ const SingUp = () => {
                 });
             } else {
                 console.error('Error al registrar usuario');
+                setShowErrorModal(true);
             }
         } catch (error) {
             console.error('Error al conectar con el servidor: ', error);
+            setShowErrorModal(true);
         }
     };
-
-
 
 
 
@@ -82,6 +81,35 @@ const SingUp = () => {
             <Helmet>
                 <title>SingUp</title>
             </Helmet>
+
+            {/* ... MODALES... */}
+
+            {showSuccessModal && (
+                <div className="overlay">
+                    <div className="modal-container">
+                        <div className="modal">
+                            <p>Usuario registrado correctamente</p>
+                            <button onClick={() => setShowSuccessModal(false)}>Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {showErrorModal && (
+                <div className="overlay">
+                    <div className="modal-container">
+                        <div className="modal">
+                            <p>Error al registrar usuario</p>
+                            <button onClick={() => setShowErrorModal(false)}>Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+
+            {/* ... Formulario ... */}
+
+
             <div className='singup-form-container'>
                 <div className='singup-form'>
                     <form onSubmit={handleSubmit}>
