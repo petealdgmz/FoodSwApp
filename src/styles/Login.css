@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form-container {
+    position: relative;
+    display: flex;
+    transform: translate(10%, 15%);
+    width: 300px;
+    height: 400px;
+    background-color: #C7B856;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.5%;
+}
+
+.login-form {
+    position: relative;
+    background-color: #D4D4D4;
+    width: 265px;
+    height: 365px;
+    border-radius: 4.5%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group,
+.btnInicio {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.icon {
+    width: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.input-field {
+    height: 20px;
+    
+}
+
+.input-field[type="email"],
+.input-field[type="password"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.input-container{
+    margin-top: 20%;
+}
+
+.input-field[type="password"]{
+    margin-bottom: -10%;
+}
+
+#passRecover{
+    color:#000;
+    text-align: end;
+    margin-right: 8%;
+}
+
+.btnInicio {
+    background-color: #C7B856;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 19px;
+    margin-top: -5%;
+}
+.btnInicio:hover{
+    background-color: #FFD700;
+}
+
+
+
+
+
+
+.up-icono {
+    position: absolute;
+    width: 45%;
+    top: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.goToSingUp-container{
+    color: #000;
+    text-align: center;
+}
+
+
+
+.welcome-img {
+    position: relative;
+    right: 4.5%;
+    top: -4.5%;
+    width: 50%;
+    height: 550px;
+    background-color: #ffba24;
+    color: white;
+    border-radius: 5%;
+    text-align: center; /* Añadido para centrar horizontalmente */
+}
+
+#icon-img {
+    width: 60%;
+    height: 36%;
+}

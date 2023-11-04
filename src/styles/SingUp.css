@@ -1,0 +1,112 @@
+.singup-container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../img/singup-background.png');
+    background-size: cover;
+}
+
+.singup-form-container {
+    position: relative;
+    display: flex;
+    transform: translate(10%, 6%);
+    width: 300px;
+    height: 450px;
+    background-color: #C7B856;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.5%;
+}
+
+.singup-form {
+    position: relative;
+    background-color: #D4D4D4;
+    width: 273px;
+    height: 408px;
+    border-radius: 4.5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+form:not(.btn-singup){
+    margin-left: 10%;
+}
+
+
+.singup-form{
+    color: #000;
+}
+
+.input-field, #contrasena, #correo{
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.name-container{
+    margin-bottom: 3%;
+}
+
+#accountType-container {
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos los elementos horizontalmente */
+    cursor: pointer;
+}
+
+
+.btn-singup {
+    background-color: #C7B856;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 1%;
+    text-align: center;
+    margin-right: 5%;
+
+}
+.btn-singup:hover{
+    background-color: #FFD700;
+}
+
+.btn-back {
+    background-color: #ffba24;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 1%;
+    text-align: center;
+    margin-left: 15%;
+    text-decoration: none;
+   
+}
+.btn-back:hover{
+    background-color: #FFD700;
+}
+Link{
+    margin-left: 5%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
