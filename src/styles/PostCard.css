@@ -1,0 +1,55 @@
+.post-card {
+  position: inherit;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 16px;
+    &:hover {
+      transform: scale(1.05);
+    }
+
+   
+      
+  }
+  
+  .post-card.with-margin {
+    margin-right: 70px; /* Ajusta el margen derecho según tus necesidades */
+  }
+  
+
+  .post-image {
+    width: 100%;
+    height: 200px; /* Tamaño fijo para la imagen */
+    object-fit: cover;
+  }
+  
+  .post-content {
+    padding: 16px;
+  }
+  
+  .post-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .post-creator {
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #666;
+  }
+  
+  .post-description {
+    line-height: 1.5;
+    color: #888;
+  }
+  
+  .post-card-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  

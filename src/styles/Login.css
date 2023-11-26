@@ -90,6 +90,12 @@ body {
     margin-right: 8%;
 }
 
+body{
+    background-color: #FFE120;
+  }
+  
+  
+
 .btnInicio {
     background-color: #C7B856;
     color: #000;
@@ -139,4 +145,9 @@ body {
 #icon-img {
     width: 60%;
     height: 36%;
+}
+
+.slogan{
+    margin-left: 3px;
+    margin-right: 3px;
 }

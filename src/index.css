@@ -1,3 +1,7 @@
 body{
   background-color: #FFE120;
 }
+
+body.home-page {
+  background-color: white;
+}

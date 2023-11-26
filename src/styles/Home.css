@@ -1,0 +1,20 @@
+/* Home.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  .post-container {
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Otra opción podría ser space-between */
+  }
+  
+  .post-card {
+    /* Puedes ajustar los estilos según tus preferencias */
+    width: 300px;
+    margin: 10px;
+  }
+  
