@@ -1,47 +1,65 @@
 .navbar {
-    background-color: #FFE120;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; 
-    box-sizing: border-box;
-  }
+  background-color: #ffe120;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+}
 
-  
-  .navbar-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .more-button, .logo, .nav-item {
-    margin-right: 10px;
-  }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
 
-  }
-  
-  .search-bar {
-    margin-right: 10px;
-  }
+.more-button,
+.logo,
+.nav-item {
+  margin-right: 10px;
+}
 
-  .user-button, .nav-item{
-    color: black;
-  }
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
 
-  .user-button:hover{
-    cursor: pointer;
+.search-bar {
+  padding: 8px;
+  border: 2px solid #c7b856;
+  border-radius: 40px 0 0 40px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s;
+  width: 200px; /* Ajusta el ancho según sea necesario */
+}
 
-  }
+.user-button {
+  margin-left: 10px;
+}
+.user-button,
+.nav-item {
+  color: black;
+}
 
-  .search-button{
-    margin-right: 10px;
-  }
-  
+.user-button:hover {
+  cursor: pointer;
+}
+
+.search-button {
+  padding: 1.5px 12px;
+  border: 2px solid #c7b856;
+  border-radius: 0 40px 40px 0;
+  background-color: #c7b856; /* Color de fondo del botón */
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.search-button:hover {
+  background-color: #6e6631; /* Cambia el color al pasar el ratón sobre el botón */
+}

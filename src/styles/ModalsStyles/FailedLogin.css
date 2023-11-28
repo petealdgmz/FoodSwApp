@@ -1,0 +1,41 @@
+/* FailedLogin.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: #ffffff; /* Color blanco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#acceptbutton {
+  background: #6e6631;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+}
+
+#acceptbutton:hover {
+  background-color: #a6934b; /* Cambiar color al pasar el mouse */
+}
+
+.error-message {
+  color: #6e6631; /* Color: #C7B856 */
+  font-weight: bold; /* Negritas */
+  font-family: "Arial", sans-serif; /* Fuente más moderna (puedes ajustar esto según tus preferencias) */
+}
