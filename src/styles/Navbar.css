@@ -15,6 +15,7 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  margin-right: 40%;
 }
 
 .more-button,
@@ -40,6 +41,8 @@
 
 .user-button {
   margin-left: 10px;
+  justify-content: end;
+  margin-right: 0%;
 }
 .user-button,
 .nav-item {
@@ -62,4 +65,16 @@
 }
 .search-button:hover {
   background-color: #6e6631; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+.fsa_logo {
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 6%;
+}
+.fsa_menu {
+  width: 5%;
+}
+.fsa_logo2 {
+  width: 70%;
 }

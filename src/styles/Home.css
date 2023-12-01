@@ -6,12 +6,12 @@ body {
 }
 
 .post-container {
-  margin-top: 20px; 
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
   max-height: 80vh;
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
 .post-card {

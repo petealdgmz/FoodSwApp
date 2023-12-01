@@ -13,8 +13,17 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar-left">
-          <div className="more-button">&#9776;</div>
-          <img src="ruta-de-tu-logo.png" alt="Logo" className="logo" />
+          <img
+            src="../../../img/fsa_menu.png"
+            alt="fsa-menu"
+            className="fsa_menu"
+          />
+
+          <img
+            src="../../../img/fsa_name.png"
+            alt="Logo"
+            className="fsa_logo"
+          />
           <div className="nav-item">Inicio</div>
           <div className="nav-item">Categorías</div>
           <div className="nav-item">Ayuda</div>
@@ -23,7 +32,11 @@ const Navbar = () => {
           <input type="text" placeholder="Buscar" className="search-bar" />
           <button className="search-button">🔍︎</button>
           <div className="user-button" onClick={toggleSidebar}>
-            Usuario
+            <img
+              src="../../../img/user_icon.png"
+              alt="fsa-logo"
+              className="fsa_logo2"
+            />
           </div>
         </div>
       </nav>
