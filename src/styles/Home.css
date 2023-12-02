@@ -6,7 +6,7 @@ body {
 }
 
 .post-container {
-  margin-top: 5px;
+  margin-top: -80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

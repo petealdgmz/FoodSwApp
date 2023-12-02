@@ -1,9 +1,19 @@
-import React from 'react';
-import '../../styles/PostCard.css'
+import React from "react";
+import "../../styles/PostCard.css";
 
-const PostCard = ({ image, title, creator, description, addRightMargin }) => {
+const PostCard = ({
+  image,
+  title,
+  creator,
+  description,
+  addRightMargin,
+  onClick,
+}) => {
   return (
-    <div className={`post-card ${addRightMargin ? 'with-margin' : ''}`}>
+    <div
+      onClick={onClick}
+      className={`post-card ${addRightMargin ? "with-margin" : ""}`}
+    >
       <img src={image} alt="Post" className="post-image" />
       <div className="post-content">
         <h2 className="post-title">{title}</h2>

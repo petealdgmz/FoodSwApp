@@ -41,8 +41,8 @@
 
 .user-button {
   margin-left: 10px;
+  width: 60px;
   justify-content: end;
-  margin-right: 0%;
 }
 .user-button,
 .nav-item {
@@ -77,4 +77,14 @@
 }
 .fsa_logo2 {
   width: 70%;
+}
+
+#postsicon {
+  width: 50%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.createPostItem {
+  z-index: 100;
 }
